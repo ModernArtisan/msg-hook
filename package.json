@@ -4,18 +4,32 @@
   "description": "package creation",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "ME",
   "license": "ISC",
   "dependencies": {
     "Babel": "0.0.1",
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "es7": "^1.0.8-beta.4",
     "express": "^4.17.1",
     "react": "^17.0.1",
     "request": "^2.88.2",
     "webpack": "^5.9.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ModernArtisan/msg-hook.git"
+  },
+  "keywords": [
+    "mktg",
+    "hooks"
+  ],
+  "bugs": {
+    "url": "https://github.com/ModernArtisan/msg-hook/issues"
+  },
+  "homepage": "https://github.com/ModernArtisan/msg-hook#readme"
 }
